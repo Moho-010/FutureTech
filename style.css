@@ -47,8 +47,8 @@ Variables
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
-  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  --light-shadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.25);
+  --dark-shadow: 4px 10px 5px 0 rgba(0, 0, 0, 0.5);
   --max-width: 1170px;
 }
 /*
@@ -572,10 +572,8 @@ Contact
 /* end of footer */
 
 /* navbar */
-.nav-logo {
-  width: 15%;
-  border-radius: 50%;
-  object-fit: cover;
+.nav-logo{
+  border-radius: 0.5rem;
 }
 .nav-icons {
   display: none;
@@ -640,10 +638,9 @@ Contact
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
   }
   .nav-header {
-    padding: 0;
+    padding: 0.5rem;
   }
   .nav-link {
     padding: 0;
@@ -652,14 +649,14 @@ Contact
     padding: 0;
     background: transparent;
   }
-  .navbar {
-    padding: 1rem 2rem;
+  .nav-center {
+    width: 100%;
   }
   .nav-link {
-    margin-right: 1rem;
+    margin-right: 0.7rem;
   }
   .nav-icon {
-    margin-right: 1rem;
+    margin-right: 0.7rem;
     color: var(--primaryColor);
     font-size: 1.2rem;
     transition: var(--transition);
