@@ -11,25 +11,10 @@ Variables
 ===============
 */
 :root {
-  /* dark shades of primary color
-  --clr-primary-1: #0c0e77;
-  --clr-primary-2: #292df5;
-  --clr-primary-3: #8587ff;
-  --clr-primary-4: #afb0fd;
-  /* primary/main color 
-  --clr-primary-5: #013579;
-  /* lighter shades of primary color 
-  --clr-primary-6: #852ee7;
-  --clr-primary-7: #4a97fc;
-  --clr-primary-8: #72aefd;
-  --clr-primary-9: #9bc5fd;
-  --clr-primary-10: #d7e8fe;
-   darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
-  /* grey used for paragraphs*/
   --clr-grey-5: hsl(210, 22%, 49%);
   --clr-grey-6: hsl(209, 23%, 60%);
   --clr-grey-7: hsl(211, 27%, 70%);
@@ -105,8 +90,8 @@ p {
 }
 a {
   text-decoration: none;
-  color: rgb(28, 133, 175);
-  text-transform: uppercase;
+  color: rgb(5, 138, 190);
+  text-transform: capitalize;
   font-weight: bold;
 }
 /* more global styles */
@@ -648,13 +633,12 @@ Contact
 }
 .back-btn {
   display: inline;
-  background: var(--darkGrey);
-  border: 1.5px solid hsl(211, 76%, 67%);
-  padding: 0.2rem 1rem;
+  background: var(--mainGrey);
+  border: 2px solid hsl(211, 97%, 40%);
+  padding: 0.5rem 1rem;
   border-radius: var(--radius);
   transition: var(--transition);
 }
-
 /* end of footer */
 
 /* navbar */
