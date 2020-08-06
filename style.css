@@ -480,23 +480,10 @@ Contact
 }
 /* contact */
 .connect {
-  padding-top: 2rem;
-  background: rgb(182, 243, 182);
-}
-.connect-item {
-  margin-bottom: 3rem;
-}
-.connect-title {
-  color: var(--primaryColor);
-  font-family: var(--ff-primary);
-  text-transform: uppercase;
-  letter-spacing: calc(var(--spacing) * 2);
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
-}
-.connect-text {
-  text-transform: uppercase;
-  font-size: 1.5rem;
+  padding-top: 6rem;
+  background: rgb(183, 243, 203);
+  width: 100vw;
+  height: 100vh;
 }
 .form-control {
   display: block;
@@ -505,7 +492,7 @@ Contact
   border-bottom: 2px solid var(--primaryColor);
   outline: none;
   margin: 2rem 0;
-  padding: 1.6rem 0;
+  padding: 1.6rem 0.5rem;
   font-weight: bold;
 }
 .form-control::placeholder {
@@ -515,19 +502,21 @@ Contact
 }
 @media screen and (min-width: 992px) {
   .connect {
-    padding-top: 2rem;
+    display: block;
+    text-align: center;
+    padding-top: 6rem;
     background: rgb(208, 234, 238);
     width: 100vw;
     height: 100vh;
   }
-  .connect-info,
+
   .connect-form {
-    float: left;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
     width: 50%;
     padding: 0 1rem;
-  }
-  .connect-info {
-    padding-top: 4rem;
   }
 }
 
